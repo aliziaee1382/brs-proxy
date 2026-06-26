@@ -4,7 +4,7 @@ export default async function handler(req, res) {
   res.setHeader('Content-Type', 'application/json');
 
   // لینک کامل BrsApi خودت رو اینجا جایگزین کن
-  const url = "لینک_کامل_BRSAPI_شما_در_اینجا";
+  const url = "https://Api.BrsApi.ir/Market/Gold_Currency.php?key=BZebdMkfZGGIPMjAIz5UcN6qiJzsLixi";
 
   try {
     const response = await fetch(url, {
